@@ -1,6 +1,7 @@
-
 import "./globals.css";
 import { Chakra_Petch } from "next/font/google";
+import "node_modules/locomotive-scroll/dist/locomotive-scroll.css";
+import Navbar from "./components/Navbar";
 
 const inter = Chakra_Petch({
   subsets: ["latin", "latin-ext"],
@@ -15,7 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        <main className="p-4 text-white text-opacity-90">{children}</main>
+      </body>
     </html>
   );
 }
