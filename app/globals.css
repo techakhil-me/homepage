@@ -75,14 +75,14 @@ html.has-scroll-dragging {
 }
 
 /* Only necessary with horizontal scrolling */
-html[data-scroll-orientation="horizontal"] {
+/* html[data-scroll-orientation="horizontal"] {
   body {
     width: fit-content;
   }
   [data-scroll-container] {
     display: flex;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -96,5 +96,5 @@ body {
 
 .text-stroke {
   -webkit-text-stroke: 1px white;
-  text-stroke: 1px white;
+  /* text-stroke: 1px white; */
 }
