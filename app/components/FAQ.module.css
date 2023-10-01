@@ -1,0 +1,17 @@
+.faq-item {
+    animation: none;
+    transform-origin: center center;
+  }
+  
+  .faq-item.active {
+    animation: moveArc 10s linear infinite;
+  }
+  
+  @keyframes moveArc {
+    0% {
+      transform: translate(0, 0) rotate(0deg); 
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(-360deg); 
+    }
+  }
