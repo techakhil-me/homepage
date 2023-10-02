@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import Hero from "./components/Hero";
 import FAQ from "./components/Faq";
 import FAQs from "./components/FAQs";
+import Sponsors from "./components/Sponsors";
 
 export default function Home() {
   // useEffect(() => {
@@ -15,6 +16,7 @@ export default function Home() {
     <>
       <Hero />
       {/* <FAQ /> */}
+      <Sponsors/>
       <FAQs />
     </>
   );
