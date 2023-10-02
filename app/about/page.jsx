@@ -24,11 +24,11 @@ export default function Home() {
       </section>
 
       {/* faculty */}
-      <section className="w-full pt-20 pb-5 justify-start items-center gap-14 inline-flex">
+      <section className="w-full pt-20 pb-5 justify-center items-center gap-14 inline-flex">
         <div className="justify-start items-center gap-5 flex">
           <TeamCard />
         </div>
-        <div className="grow h-full flex-col justify-center items-end gap-2.5 inline-flex">
+        <div className=" w-96 h-full flex-col justify-center items-end gap-2.5 inline-flex">
           <div className="text-right text-white text-opacity-90 text-4xl font-bold font-['Chakra Petch'] uppercase leading-10 tracking-widest">
             We Are the Frontline
           </div>

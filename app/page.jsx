@@ -6,12 +6,14 @@ import { useEffect } from "react";
 import Hero from "./components/Hero";
 import FAQ from "./components/Faq";
 
-
 export default function Home() {
   // useEffect(() => {
   //   const locomotiveScroll = new LocomotiveScroll();
   // }, []);
   return (
-   <Hero />
+    <>
+      <Hero />
+      <FAQ />
+    </>
   );
 }
