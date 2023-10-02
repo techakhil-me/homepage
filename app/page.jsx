@@ -5,6 +5,7 @@ import Image from "next/image";
 import { useEffect } from "react";
 import Hero from "./components/Hero";
 import FAQ from "./components/Faq";
+import FAQs from "./components/FAQs";
 
 export default function Home() {
   // useEffect(() => {
@@ -13,7 +14,8 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <FAQ />
+      {/* <FAQ /> */}
+      <FAQs />
     </>
   );
 }

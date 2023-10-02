@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-10 mt-10 z-10 text-white  px-4 fixed justify-center items-center inline-flex">
+    <nav className="w-full h-10 mt-10 z-50 text-white  px-4 fixed justify-center items-center inline-flex">
       <Link
         href="/about"
         className="grow shrink basis-0 transition-all duration-300 ease-in-out hover:text-black hover:bg-opacity-100 self-stretch bg-white backdrop-blur-sm  bg-opacity-10 border border-stone-300 flex-col justify-center items-center gap-2.5 inline-flex"
@@ -59,7 +59,7 @@ const Navbar = () => {
           />
         </svg>
       </Link>
-      <div className="grow shrink basis-0 transition-all duration-300 ease-in-out hover:text-black hover:bg-opacity-100 self-stretch bg-white backdrop-blur-sm  bg-opacity-10 border border-stone-300 flex-col justify-center items-center gap-2.5 inline-flex">
+      <div className="grow shrink basis-0 transition-all duration-300 ease-in-out hover:text-black hover:bg-opacity-100 self-stretch bg-white backdrop-blur-md  bg-opacity-10 border border-stone-300 flex-col justify-center items-center gap-2.5 inline-flex">
         <div className="text-opacity-90 text-sm font-semibold font-['Chakra Petch'] leading-tight">
           EVENTS
         </div>
