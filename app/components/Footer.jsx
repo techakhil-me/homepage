@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <div className="w-full flex-col justify-start items-center gap-2 pt-40 inline-flex">
-      <div className="justify-start items-start gap-5 inline-flex">
+    <div className="w-full flex-col justify-start items-center gap-5 pt-40 p-4 inline-flex">
+      <div className="justify-center items-center gap-5 inline-flex flex-wrap md:flex-nowrap">
         <a
           href="/"
           className="text-center text-stone-300 hover:text-white text-base font-normal font-['Chakra Petch'] uppercase leading-tight"
@@ -59,7 +59,7 @@ function Footer() {
                   filterUnits="userSpaceOnUse"
                   colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -138,7 +138,7 @@ function Footer() {
                   y2="21.4519"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#760F0F" />
+                  <stop stopColor="#760F0F" />
                   <stop offset="1" stopColor="#FF2727" />
                 </linearGradient>
               </defs>

@@ -2,37 +2,37 @@ import Spline from "@splinetool/react-spline";
 
 const Hero = () => {
   return (
-    <section className="flex min-h-screen relative h-screen flex-col items-center justify-between">
-      <div className=" w-full absolute z-0 overflow-hidden">
-        <div className="h-screen mt-10 w-full scale-110">
+    <section className="flex min-h-screen overflow-hidden relative h-screen flex-col items-center justify-between">
+      <div className=" w-full z-0 relative">
+        <div className="absolute h-screen mt-10 w-screen scale-110">
           <Spline scene="https://prod.spline.design/SYmCHifc72fWmK5u/scene.splinecode" />
         </div>
       </div>
       <div className="w-full z-10 h-full pointer-events-none pt-32 git flex-col justify-between items-start inline-flex">
         <div className="self-stretch h-32 flex-col justify-start items-end flex">
           <div className="text-right pointer-events-auto text-white text-opacity-90 text-3xl font-bold font-['Chakra Petch'] uppercase leading-10 tracking-widest">
-            OFFICIAL CYSEC CLUB
+            OFFICIAL CYSEC COMMITTEE
           </div>
-          <div className="w-[450px] text-right">
-            <span className="text-stone-300 pointer-events-auto text-base font-normal font-['Chakra Petch'] uppercase leading-normal">
+          <div className="md:w-[450px] text-right text-sm md:text-base">
+            <span className="text-stone-300 pointer-events-auto  font-normal font-['Chakra Petch'] uppercase leading-normal">
               Join us on a dynamic journey, embracing emerging technologies, to{" "}
             </span>
             <span className="text-white pointer-events-auto text-opacity-90 font-bold text-base font-['Chakra Petch'] uppercase leading-normal">
               explore
             </span>
-            <span className="text-stone-300 pointer-events-auto text-base font-normal font-['Chakra Petch'] uppercase leading-normal">
+            <span className="text-stone-300 pointer-events-auto font-normal font-['Chakra Petch'] uppercase leading-normal">
               ,{" "}
             </span>
             <span className="text-white pointer-events-auto text-opacity-90 font-bold text-lg font-['Chakra Petch'] uppercase leading-normal">
               learn
             </span>
-            <span className="text-stone-300 pointer-events-auto text-base font-normal font-['Chakra Petch'] uppercase leading-normal">
+            <span className="text-stone-300 pointer-events-auto font-normal font-['Chakra Petch'] uppercase leading-normal">
               , and{" "}
             </span>
-            <span className="text-white pointer-events-auto text-opacity-90 font-bold text-base font-['Chakra Petch'] uppercase leading-normal">
+            <span className="text-white pointer-events-auto text-opacity-90 font-bold font-['Chakra Petch'] uppercase leading-normal">
               innovate
             </span>
-            <span className="text-stone-300 pointer-events-auto text-base font-normal font-['Chakra Petch'] uppercase leading-normal">
+            <span className="text-stone-300 pointer-events-auto font-normal font-['Chakra Petch'] uppercase leading-normal">
               {" "}
               <br />
               in the realm of digital defense and beyond.
@@ -51,7 +51,7 @@ const Hero = () => {
               I O T
             </div>
           </div>
-          <div className="w-60 h-32 overflow-hidden bg-white bg-opacity-5 border border-stone-300 backdrop-blur-md flex-col justify-center items-center gap-3 inline-flex">
+          <div className="hidden lg:flex w-60 h-32 overflow-hidden bg-white bg-opacity-5 border border-stone-300 backdrop-blur-md flex-col justify-center items-center gap-3">
             <video
               className="video-js vjs-theme-fantasy"
               vjs-big-play-centered
