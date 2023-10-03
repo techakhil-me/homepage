@@ -43,8 +43,8 @@ function Footer() {
             >
               <g filter="url(#filter0_dii_1392_173)">
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M25.2054 4.83192C24.1738 3.79991 22.7745 3.22009 21.3154 3.22009C19.8562 3.22009 18.4569 3.79991 17.4254 4.83192L16.3654 5.89192L15.3054 4.83192C13.157 2.68353 9.67374 2.68353 7.52535 4.83192C5.37697 6.98031 5.37697 10.4635 7.52535 12.6119L8.58535 13.6719L16.3654 21.4519L24.1454 13.6719L25.2054 12.6119C26.2374 11.5804 26.8172 10.1811 26.8172 8.72192C26.8172 7.26278 26.2374 5.86344 25.2054 4.83192Z"
                   fill="url(#paint0_linear_1392_173)"
                 />
@@ -57,7 +57,7 @@ function Footer() {
                   width="31.3393"
                   height="28.6678"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
                   <feFlood flood-opacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
@@ -139,7 +139,7 @@ function Footer() {
                   gradientUnits="userSpaceOnUse"
                 >
                   <stop stop-color="#760F0F" />
-                  <stop offset="1" stop-color="#FF2727" />
+                  <stop offset="1" stopColor="#FF2727" />
                 </linearGradient>
               </defs>
             </svg>
