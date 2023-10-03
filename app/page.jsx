@@ -4,9 +4,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import Hero from "./components/Hero";
-import FAQ from "./components/Faq";
-import FAQs from "./components/FAQs";
-import Sponsors from "./components/Sponsors";
+import AutoplayCarousel from "./components/AutoplayCarousel";
 
 export default function Home() {
   // useEffect(() => {
@@ -14,10 +12,8 @@ export default function Home() {
   // }, []);
   return (
     <>
-      <Hero />
-      {/* <FAQ /> */}
-      <Sponsors/>
-      <FAQs />
-    </>
+   <Hero />
+   <AutoplayCarousel/>
+   </>
   );
 }
