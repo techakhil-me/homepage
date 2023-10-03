@@ -4,8 +4,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import Hero from "./components/Hero";
-import FAQ from "./components/Faq";
-import Carausel from "./components/Carausel";
+import AutoplayCarousel from "./components/AutoplayCarousel";
 
 export default function Home() {
   // useEffect(() => {
@@ -14,7 +13,7 @@ export default function Home() {
   return (
     <>
    <Hero />
-   <Carausel/>
+   <AutoplayCarousel/>
    </>
   );
 }

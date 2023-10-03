@@ -100,25 +100,7 @@ body {
 }
 
 
-.frame {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding: 60px 0px;
-  position: relative;
-}
-
-.frame .div {
-  align-items: flex-end;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 10px;
-  position: relative;
-}
-
-.frame .h-ighlights {
+.h-ighlights {
   -webkit-text-stroke: 1px #ffffff80;
   color: #ffffffcc;
   font-family: "Chakra Petch-Bold", Helvetica;
@@ -133,7 +115,8 @@ body {
   width: fit-content;
 }
 
-.frame .join-us-on-a-dynamic {
+
+.join-us-on-a-dynamic {
   color: #ffffffcc;
   font-family: "Chakra Petch-Regular", Helvetica;
   font-size: 18px;
@@ -142,132 +125,15 @@ body {
   line-height: 24px;
   position: relative;
   text-align: right;
-  width: 499.58px;
 }
 
-.frame .div-2 {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  gap: 40px;
-  position: relative;
-  width: 100%;
-}
 
-.frame .slide {
-  -webkit-backdrop-filter: blur(11.69px) brightness(100%);
-  backdrop-filter: blur(11.69px) brightness(100%);
-  background-color: #ffffff0d;
-  border: 0.2px solid;
-  border-color: #cdcdcd;
-  height: 255px;
-  margin-bottom: -1px;
-  margin-top: -1px;
-  position: relative;
-  width: 451px;
-}
-
-.frame .overlap {
-  height: 274px;
-  left: -15px;
-  position: relative;
-  width: 464px;
-}
-
-.frame .overlap-group-wrapper {
-  height: 253px;
-  left: 15px;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 449px;
-}
-
-.frame .overlap-group {
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 451px;
-  left: -14px;
-  position: relative;
-  top: -141px;
-  width: 602px;
-}
-
-.frame .slide-2 {
-  -webkit-backdrop-filter: blur(5px) brightness(100%);
-  backdrop-filter: blur(5px) brightness(100%);
-  background-color: #ffffff0d;
-  border: 0.2px solid;
-  border-color: #cdcdcd;
-  height: 255px;
-  left: 13px;
-  position: relative;
-  top: 140px;
-  width: 451px;
-}
-
-.frame .div-wrapper {
-  -webkit-backdrop-filter: blur(11.69px) brightness(100%);
-  align-items: center;
-  backdrop-filter: blur(11.69px) brightness(100%);
-  background-color: #ffffff0d;
-  border: 0.2px solid;
-  border-color: #cdcdcd;
+.frame {
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
-  gap: 11.69px;
-  height: 42px;
-  justify-content: center;
-  left: 0;
-  position: absolute;
-  top: 232px;
-  width: 202px;
-}
-
-.frame .text-wrapper {
-  color: #ffffffcc;
-  font-family: "Chakra Petch-Regular", Helvetica;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 14px;
+  gap: 40px;
+  padding: 60px 0px;
   position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.frame .slide-wrapper {
-
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 451px;
-  left: -14px;
-  position: relative;
-  top: -141px;
-  width: 602px;
-}
-
-.frame .overlap-group-2 {
-
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 451px;
-  left: -14px;
-  position: relative;
-  top: -141px;
-  width: 602px;
-}
-
-.frame .overlap-group-3 {
-
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 451px;
-  left: -14px;
-  position: relative;
-  top: -141px;
-  width: 602px;
 }
 
