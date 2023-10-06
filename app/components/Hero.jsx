@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="flex min-h-screen overflow-hidden relative h-screen flex-col items-center justify-between">
       <div className=" w-full z-0 relative">
-        <div className="absolute h-screen mt-10 w-screen scale-110">
+        <div className="absolute h-screen mt-10 w-full scale-110">
           <Spline scene="https://prod.spline.design/SYmCHifc72fWmK5u/scene.splinecode" />
         </div>
       </div>

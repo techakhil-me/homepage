@@ -1,10 +1,10 @@
 "use client"; // to import client side only modules
 // import LocomotiveScroll from "locomotive-scroll";
 
-import Image from "next/image";
-import { useEffect } from "react";
 import Hero from "./components/Hero";
-import AutoplayCarousel from "./components/AutoplayCarousel";
+import Sponsors from "./components/Sponsors";
+import FAQs from "./components/FAQs";
+import Carousel from "./components/Carousel";
 
 export default function Home() {
   // useEffect(() => {
@@ -12,8 +12,10 @@ export default function Home() {
   // }, []);
   return (
     <>
-   <Hero />
-   <AutoplayCarousel/>
-   </>
+      <Hero />
+      <Carousel />
+      <Sponsors />
+      <FAQs />
+    </>
   );
 }

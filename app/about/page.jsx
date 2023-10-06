@@ -1,5 +1,6 @@
 import Image from "next/image";
 import TeamCard from "./../components/TeamCard";
+import { TeamDetails } from "../components/TeamDetails";
 
 export default function Home() {
   return (
@@ -12,19 +13,11 @@ export default function Home() {
             Frontline
           </div>
           <div className=" text-stone-300 text-lg font-normal font-['Chakra Petch'] uppercase leading-normal">
-            Lorem ipsum dolor sit amet consectetur. In eget sed ut nisl. Amet
-            amet morbi et cras molestie euismod in mauris arcu. Sed ipsum tellus
-            lorem vivamus molestie. Commodo velit adipiscing phasellus sit vitae
-            sed nam.
-            <br />
-            Etiam egestas volutpat nunc at. Pretium turpis aliquam sit nulla
-            massa id ornare neque id bibendum.
+            DJSCE's Student Chapter for Cybersecurity. We are poised to build a
+            Safe Online Community, Starting innovation right here.
           </div>
         </div>
-        <img
-          className="w-1/2"
-          src="https://cdn.discordapp.com/attachments/765973145852575746/1158489017831137391/image.png"
-        />
+        <img className="w-1/2" src="/about.png" />
       </section>
 
       {/* faculty */}
@@ -63,31 +56,21 @@ export default function Home() {
           </div>
         </div>
         <div className="grow shrink basis-0 flex-col justify-start items-start gap-24 inline-flex">
-          <div className="sjustify-start items-center gap-10 inline-flex">
-            {/* <TeamCard /> */}
-            <div className=" text-stone-300 text-lg font-normal font-['Chakra Petch'] uppercase leading-normal">
-              Lorem ipsum dolor sit amet consectetur. In eget sed ut nisl. Amet
-              amet morbi et cras molestie euismod in mauris arcu. Sed ipsum
-              tellus lorem vivamus molestie. Commodo velit adipiscing phasellus
-              sit vitae sed nam. Etiam egestas volutpat nunc at. Pretium turpis
-              aliquam sit nulla massa id ornare neque id bibendum.
-            </div>
-            {/* todo - add socials */}
-          </div>
-          <div className="self-stretch justify-start items-center gap-10 inline-flex">
-            {/* <TeamCard /> */}
-            <div className="grow flex-col justify-center items-start gap-2.5 inline-flex">
+          {TeamDetails.map((member, key) => (
+            <div
+              key={key}
+              className="sjustify-start items-center gap-10 inline-flex"
+            >
+              <TeamCard
+                name={member.name}
+                role={member.role}
+                img={member.img}
+              />
               <div className=" text-stone-300 text-lg font-normal font-['Chakra Petch'] uppercase leading-normal">
-                Lorem ipsum dolor sit amet consectetur. In eget sed ut nisl.
-                Amet amet morbi et cras molestie euismod in mauris arcu. Sed
-                ipsum tellus lorem vivamus molestie. Commodo velit adipiscing
-                phasellus sit vitae sed nam. Etiam egestas volutpat nunc at.
-                Pretium turpis aliquam sit nulla massa id ornare neque id
-                bibendum.
+                {member.description}
               </div>
-              {/* todo - add socials */}
             </div>
-          </div>
+          ))}
         </div>
       </section>
     </>
