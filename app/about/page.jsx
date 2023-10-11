@@ -31,16 +31,10 @@ export default function Home() {
         </div>
         <div className=" w-96 h-full flex-col justify-center items-end gap-2.5 inline-flex">
           <div className="text-right text-white text-opacity-90 text-4xl font-bold font-['Chakra Petch'] uppercase leading-10 tracking-widest">
-            We Are the Frontline
+            Captain of the Cruise
           </div>
           <div className="text-right text-stone-300 text-lg font-normal font-['Chakra Petch'] uppercase leading-normal">
-            Lorem ipsum dolor sit amet consectetur. In eget sed ut nisl. Amet
-            amet morbi et cras molestie euismod in mauris arcu. Sed ipsum tellus
-            lorem vivamus molestie. Commodo velit adipiscing phasellus sit vitae
-            sed nam.
-            <br />
-            Etiam egestas volutpat nunc at. Pretium turpis aliquam sit nulla
-            massa id ornare neque id bibendum.
+           Dr. Shekokar serves as a motivating figure within our institution, inspiring both students and faculty to pursue excellence and innovation within the Department of CSE(ICB). His leadership and dedication continue to drive the department's success.
           </div>
         </div>
       </section>
