@@ -7,12 +7,12 @@ const Navbar = () => {
         href="/about"
         className="grow shrink basis-0 transition-all duration-300 ease-in-out hover:text-black hover:bg-opacity-100 self-stretch bg-white backdrop-blur-sm  bg-opacity-10 border border-stone-300 flex-col justify-center items-center gap-2.5 inline-flex"
       >
-        <div className="text-opacity-90 text-sm font-semibold font-['Chakra Petch'] leading-tight">
+        <div className="codedText text-opacity-90 text-sm font-semibold font-['Chakra Petch'] leading-tight">
           ABOUT
         </div>
       </Link>
       <div className="grow shrink basis-0 transition-all duration-300 ease-in-out hover:text-black hover:bg-opacity-100 self-stretch bg-white backdrop-blur-sm  bg-opacity-10 border border-stone-300 flex-col justify-center items-center gap-2.5 inline-flex">
-        <div className="text-opacity-90 text-sm font-semibold font-['Chakra Petch'] leading-tight">
+        <div className="codedText text-opacity-90 text-sm font-semibold font-['Chakra Petch'] leading-tight">
           NEWSLETTERS
         </div>
       </div>
