@@ -1,6 +1,6 @@
 function EventsCard({ title, img, desc }) {
   return (
-    <div className="event_card md:w-1/3 max-h-[500px] w-full relative backdrop-blur-md  overflow-hidden border border-stone-300 justify-start items-start gap-5 inline-flex flex-col">
+    <div className="event_card md:w-1/4 max-h-[500px] w-full relative backdrop-blur-md  overflow-hidden border border-stone-300 justify-start items-start gap-5 inline-flex flex-col">
       <div className="w-full overflow-hidden">
         <img className="w-full object-fill" src={img} alt="" />
       </div>

@@ -16,6 +16,11 @@
   }
 }
 
+*:focus {
+  outline: none;
+}
+
+
 html.has-scroll-smooth {
   overflow: hidden;
 }
