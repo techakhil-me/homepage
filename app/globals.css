@@ -125,3 +125,11 @@ body {
     transform: translatey(0px);
   }
 }
+
+
+
+@media (max-width: 768px) {
+  .event_details {
+    transform: translateY(0);
+  }
+}

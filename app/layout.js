@@ -68,9 +68,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} >
         <Navbar />
-        <main className=" md:p-4  px-2 md:px-10 text-white text-opacity-90">
+        <main className=" md:p-4  overflow-hidden md:px-10 text-white text-opacity-90">
           {children}
         </main>
         <Footer />
