@@ -17,7 +17,7 @@ function FAQs() {
         </div>
         <div style={{ animationDelay: "2000ms" }} className="md:-mt-40 float">
           <FAQCard
-            question={"Our mission ?"}
+            question={"What is our mission ?"}
             answer={
               "We aim to spread awareness and importance of cyber security in professional and personal space. We are poised to build a safe online community, starting innovation right here!"
             }
@@ -32,7 +32,12 @@ function FAQs() {
           />
         </div>
         <div className="float">
-          <FAQCard />
+          <FAQCard
+            question={"what events DJS ISACA conducts ?"}
+            answer={
+              "DJS ISACA conducts several educational and competetive events in the domains of IoT, Cybersecurity and Blockchain Technology. These include hackathons, CTfs and workshops."
+            }
+          />
         </div>
       </div>
     </section>

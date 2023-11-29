@@ -9,7 +9,7 @@ function Carousel() {
           HIghlights
         </div>
         <div className="w-96 text-right text-stone-300 text-base font-normal font-['Chakra Petch'] uppercase leading-normal">
-          Join us on a dynamic journey, embracing emerging{" "}
+        Unforgettable Moments in the Spotlight
         </div>
       </div>
       <div className="w-[98vw] self-center overflow-hidden">
