@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <AnimatePresence mode='wait'> 
       <body className={inter.className} >
         <Navbar />
-        <main className=" md:p-4  overflow-hidden md:px-10 text-white text-opacity-90">
+        <main className="md:p-4  overflow-hidden md:px-10 text-white text-opacity-90">
           {children}
         </main>
         <Footer />
